@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: example-work.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+The style file: gost780uv.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Database file #1: thesis.bib
+Warning--entry type for "Skvortsov_2008" isn't style-file defined
+--line 94 of file thesis.bib
+Warning--empty title in Segall_1968
+Warning--empty booktitle in Agranovich_1983
+Warning--empty journal in Perelman_2003_math:0307245
+Warning--empty journal in Nielsen_2010_1006.2735
+You've used 11 entries,
+            2649 wiz_defined-function locations,
+            726 strings with 7311 characters,
+and the built_in function-call counts, 3171 in all, are:
+= -- 431
+> -- 59
+< -- 7
++ -- 25
+- -- 14
+* -- 164
+:= -- 411
+add.period$ -- 35
+call.type$ -- 11
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 164
+empty$ -- 356
+format.name$ -- 23
+if$ -- 860
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 0
+newline$ -- 71
+num.names$ -- 15
+pop$ -- 71
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 15
+skip$ -- 66
+stack$ -- 0
+substring$ -- 78
+swap$ -- 52
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 15
+width$ -- 13
+write$ -- 178
+(There were 5 warnings)
