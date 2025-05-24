@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex diplom"] 1748111123.16528 "diplom.aux" "diplom.bbl" "diplom" 1748111126.80305 0
+["bibtex diplom"] 1748119292.26092 "diplom.aux" "diplom.bbl" "diplom" 1748119295.87434 0
   "./gost780uv.bst" 1355680106 28551 572aea001b1187cd3422dbdb98a666ae ""
   "./thesis.bib" 1745994786 4148 f4b63ad42f65045a9137b67311e220ef ""
-  "diplom.aux" 1748111125 23073 cc9dd5b7b25655457b752d22942afeef "pdflatex"
+  "diplom.aux" 1748119294 25878 c0dd046474b8d612a9d5bca35410a568 "pdflatex"
   (generated)
   "diplom.bbl"
   "diplom.blg"
   (rewritten before read)
-["pdflatex"] 1748111123.48465 "d:/ВУЗ/Диплом/automatic_classification_of_news/diplom.tex" "diplom.pdf" "diplom" 1748111126.80375 0
+["pdflatex"] 1748119292.57932 "d:/ВУЗ/Диплом/automatic_classification_of_news/diplom.tex" "diplom.pdf" "diplom" 1748119295.87509 0
   "C:/Users/Daniil/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1739890195 91257 eb498b2e1cda15d4deb9b864854e7db0 ""
   "C:/Users/Daniil/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1200.pk" 1739890215 27028 a6b6c7c34c32a9c3626f6b4a84b7ecba ""
   "C:/Users/Daniil/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1739888818 3240 c2435f2b5cd66d4930bc29b8df87967e ""
@@ -87,6 +87,7 @@
   "D:/MiKTeX/tex/latex/base/t2benc.dfu" 1738160243 9735 773f615f474e9b941f0ea0026b6c54fc ""
   "D:/MiKTeX/tex/latex/base/t2cenc.dfu" 1738160243 9595 10aae1faf4d68aa718e7a6a26f3eeb0b ""
   "D:/MiKTeX/tex/latex/base/textcomp.sty" 1738160243 2846 e26604d3d895e65d874c07f30c291f3f ""
+  "D:/MiKTeX/tex/latex/booktabs/booktabs.sty" 1579093635 6253 f1cb470c9199e7110a27851508ed7a5c ""
   "D:/MiKTeX/tex/latex/cancel/cancel.sty" 1388370247 7592 dd751af313a16a0308545d5bfd7aaaa2 ""
   "D:/MiKTeX/tex/latex/caption/caption.sty" 1696169587 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "D:/MiKTeX/tex/latex/caption/caption3.sty" 1696169587 72619 ee90b6612147680fd73c3b1406a74245 ""
@@ -153,6 +154,7 @@
   "D:/MiKTeX/tex/latex/tools/array.sty" 1730400552 14552 27664839421e418b87f56fa4c6f66b1a ""
   "D:/MiKTeX/tex/latex/tools/calc.sty" 1730400552 10214 61188260d324e94bc2f66825d7d3fdf4 ""
   "D:/MiKTeX/tex/latex/tools/longtable.sty" 1730400552 15900 3cb191e576c7a313634d2813c55d4bf1 ""
+  "D:/MiKTeX/tex/latex/tools/tabularx.sty" 1730400552 7243 e5dac1240636811edb77568b81818372 ""
   "D:/MiKTeX/tex/latex/upquote/upquote.sty" 1335534756 1088 517e01cde97c1c0baf72e69d43aa5a2e ""
   "D:/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "D:/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
@@ -173,12 +175,12 @@
   "code/remove_extra_spaces_and_line_breaks.py" 1748105545 446 2336f8eddafeaf03a0e96b48d0acb003 ""
   "code/split_into_en_and_ru.py" 1748062451 731 c803b488fb4acdacb90aeecb41306e7d ""
   "code/tokenize_lemmatize_and_del_stop_words.py" 1748108629 715 69caaeaaf31e95cc1fe836b5e9ff639e ""
-  "d:/ВУЗ/Диплом/automatic_classification_of_news/diplom.tex" 1748111119 25692 b9c15edb1ab3bbe211d8ff7fbbf7b54e ""
-  "diplom.aux" 1748111125 23073 cc9dd5b7b25655457b752d22942afeef "pdflatex"
-  "diplom.bbl" 1748111123 503 aba648f20b890a4ebb035972d593ec18 "bibtex diplom"
-  "diplom.out" 1748111125 6162 19e308f9bb5ed88d29412569ee652026 "pdflatex"
-  "diplom.tex" 1748111119 25692 b9c15edb1ab3bbe211d8ff7fbbf7b54e ""
-  "diplom.toc" 1748111125 8838 bab8e5a4dee025eba10a78b3bcf6c470 "pdflatex"
+  "d:/ВУЗ/Диплом/automatic_classification_of_news/diplom.tex" 1748119288 32055 48edcba9320e002e402f2855b9f2edf3 ""
+  "diplom.aux" 1748119294 25878 c0dd046474b8d612a9d5bca35410a568 "pdflatex"
+  "diplom.bbl" 1748119292 503 aba648f20b890a4ebb035972d593ec18 "bibtex diplom"
+  "diplom.out" 1748119294 7502 155591693199b04012b31de38ec4a544 "pdflatex"
+  "diplom.tex" 1748119288 32055 48edcba9320e002e402f2855b9f2edf3 ""
+  "diplom.toc" 1748119294 10846 5952186c22ac3497f1563c7d9425bf61 "pdflatex"
   (generated)
   "diplom.aux"
   "diplom.log"

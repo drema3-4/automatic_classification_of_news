@@ -33,6 +33,11 @@
 \usepackage[english,russian]{babel}
 \usepackage{tempora}
 \usepackage{cancel}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{longtable}  % Для многостраничных таблиц
+\usepackage{array}      % Для дополнительного форматирования столбцов
+\usepackage{booktabs}   % Для улучшенного оформления линий
 
 \usepackage{listings}
 \usepackage{xcolor}       % Для цветной подсветки
@@ -582,6 +587,19 @@ pandas DataFrame, чтобы избежать проблем с записью. Соответствующий код
 Полный код обработчика новостного массива можно увидеть в соответствующем
 приложении~\ref{sec:02}.
 
+\subsection{Количественные характеристики обработанного и необработанного
+датасета}
+В рамках данной работы была выполнена обработка новостного массива с
+различными параметрами (имеется ввиду разные пороги для tfidf метрик, а также
+некоторые другие). Количественные характеристики представлены
+в соответствующих таблицах~\ref{sec:03}.
+
+\subsection{Вычисление тематической модели}
+
+
+
+
+
 % Раздел "Заключение"
 \conclusion
 
@@ -595,9 +613,6 @@ pandas DataFrame, чтобы избежать проблем с записью. Соответствующий код
 % Каждая последующая секция документа будет являться приложением
 \appendix
 
-\section{Нумеруемые объекты в приложении}
-
-
 \section{Листинг вебскраппера} \label{sec:01}
 \lstinputlisting[
     caption={Полный код вебскраппера}
@@ -607,6 +622,198 @@ pandas DataFrame, чтобы избежать проблем с записью. Соответствующий код
 \lstinputlisting[
     caption={Полный код подготовки новостного массива}
 ]{code/parse_news.py}
+
+\section{Количественные характеристики подготовленного и неподготовленного
+новостного массива} \label{sec:03}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5} % Увеличиваем межстрочное расстояние
+\setlength{\tabcolsep}{4pt} % Уменьшаем отступы между столбцами
+\footnotesize % Уменьшаем размер шрифта
+\end{center}
+
+\begin{longtable}{|>{\raggedright\arraybackslash}p{3cm}|*{6}{>{\centering\arraybackslash}p{1.5cm}|}}
+\hline
+\rotatebox{90}{\parbox{4cm}{\centering\textbf{Характеристика}}} & 
+\rotatebox{90}{\textbf{Неподгот.}} & 
+\rotatebox{90}{\textbf{Стоп-слова}} & 
+\rotatebox{90}{\textbf{+Низкочаст.}} & 
+\rotatebox{90}{\textbf{TF-IDF 1\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 2\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 3\%}} \\
+\hline
+\endfirsthead
+
+\multicolumn{7}{c}{{\normalsize Продолжение таблицы}} \\
+\hline
+\rotatebox{90}{\parbox{4cm}{\centering\textbf{Характеристика}}} & 
+\rotatebox{90}{\textbf{Неподгот.}} & 
+\rotatebox{90}{\textbf{Стоп-слова}} & 
+\rotatebox{90}{\textbf{+Низкочаст.}} & 
+\rotatebox{90}{\textbf{TF-IDF 1\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 2\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 3\%}} \\
+\hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Продолжение следует...}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+Кол. док. & 17340 & 17340 & 17340 & 17340 & 17340 & 17340 \\
+\hline
+Кол. токенов & 12131111 & 6545045 & - & 6479545 & 6414045 & 6348544 \\
+\hline
+Кол. уник. ток. & 278724 & 148677 & - & 148677 & 148677 & 148677 \\
+\hline
+Мин. кол. ток. в док. & 6 & 4 & - & 4 & 4 & 4 \\
+\hline
+Модальное кол. ток. в док. & 47 & 31 & - & 31 & 31 & 30 \\
+\hline
+Среднее кол. ток. в док. & 695 & 375 & - & 371 & 367 & 364 \\
+\hline
+Медианное кол. ток. в док. & - & 313 & - & 312 & 310 & 309 \\
+\hline
+Макс. кол. ток. в док. & 6514 & 3151 & - & 2903 & 2825 & 2766 \\
+\hline
+Мин. кол. уник. ток. в док. & 6 & 4 & - & 4 & 4 & 4 \\
+\hline
+Мод. кол. уник. ток. в док. & 39 & 27 & - & 27 & 27 & 30 \\
+\hline
+Сред. кол. уник. ток. в док. & 346 & 214 & - & 211 & 208 & 205 \\
+\hline
+Мед. кол. уник. ток. в док. & - & 186 & - & 185 & 183 & 182 \\
+\hline
+Макс. кол. уник. ток. в док. & 2287 & 1353 & - & 1299 & 1262 & 1214 \\
+\hline
+\end{longtable}
+
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5} % Увеличиваем межстрочное расстояние
+\setlength{\tabcolsep}{4pt} % Уменьшаем отступы между столбцами
+\footnotesize % Уменьшаем размер шрифта
+\end{center}
+
+\begin{longtable}{|>{\raggedright\arraybackslash}p{3cm}|*{6}{>{\centering\arraybackslash}p{1.5cm}|}}
+\hline
+\rotatebox{90}{\parbox{4cm}{\centering\textbf{Характеристика}}} & 
+\rotatebox{90}{\textbf{TF-IDF 4\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 5\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 6\%.}} & 
+\rotatebox{90}{\textbf{TF-IDF 7\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 8\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 9\%}} \\
+\hline
+\endfirsthead
+
+\multicolumn{7}{c}{{\normalsize Продолжение таблицы}} \\
+\hline
+\rotatebox{90}{\parbox{4cm}{\centering\textbf{Характеристика}}} & 
+\rotatebox{90}{\textbf{TF-IDF 4\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 5\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 6\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 7\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 8\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 9\%}} \\
+\hline
+\endhead
+
+\hline
+\multicolumn{7}{r}{{Продолжение следует...}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+Кол. док. & 17340 & 17340 & 17340 & 17340 & 17340 & 17340 \\
+\hline
+Кол. токенов & 6283046 & 6217544 & 6152044 & 6086544 & 6021044 & 5955543 \\
+\hline
+Кол. уник. ток. & 148677 & 148677 & 148677 & 148677 & 148677 & 148677 \\
+\hline
+Мин. кол. ток. в док. & 4 & 4 & 4 & 4 & 4 & 4 \\
+\hline
+Модальное кол. ток. в док. & 30 & 30 & 30 & 30 & 29 & 29 \\
+\hline
+Среднее кол. ток. в док. & 360 & 356 & 352 & 349 & 345 & 341 \\
+\hline
+Медианное кол. ток. в док. & 307 & 306 & 305 & 303 & 301 & 299 \\
+\hline
+Макс. кол. ток. в док. & 2713 & 2662 & 2595 & 2545 & 2501 & 2424 \\
+\hline
+Мин. кол. уник. ток. в док. & 4 & 4 & 4 & 4 & 4 & 4 \\
+\hline
+Мод. кол. уник. ток. в док. & 27 & 29 & 29 & 28 & 28 & 28 \\
+\hline
+Сред. кол. уник. ток. в док. & 201 & 198 & 195 & 192 & 189 & 186 \\
+\hline
+Мед. кол. уник. ток. в док. & 181 & 179 & 177 & 176 & 174 & 172 \\
+\hline
+Макс. кол. уник. ток. в док. & 1164 & 1122 & 1085 & 1047 & 1018 & 986 \\
+\hline
+\end{longtable}
+
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5} % Увеличиваем межстрочное расстояние
+\setlength{\tabcolsep}{4pt} % Уменьшаем отступы между столбцами
+\footnotesize % Уменьшаем размер шрифта
+\end{center}
+
+\begin{longtable}{|>{\raggedright\arraybackslash}p{3cm}|*{3}{>{\centering\arraybackslash}p{1.5cm}|}}
+\hline
+\rotatebox{90}{\parbox{4cm}{\centering\textbf{Характеристика}}} & 
+\rotatebox{90}{\textbf{TF-IDF 10\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 10\% + Низк.}} \\
+\hline
+\endfirsthead
+
+\multicolumn{3}{c}{{\normalsize Продолжение таблицы}} \\
+\hline
+\rotatebox{90}{\parbox{4cm}{\centering\textbf{Характеристика}}} & 
+\rotatebox{90}{\textbf{TF-IDF 10\%}} & 
+\rotatebox{90}{\textbf{TF-IDF 10\% + Низк.}} \\
+\hline
+\endhead
+
+\hline
+\multicolumn{3}{r}{{Продолжение следует...}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+Кол. док. & 17340 & 17340 \\
+\hline
+Кол. токенов & 5890042 & - \\
+\hline
+Кол. уник. ток. & 148677 & - \\
+\hline
+Мин. кол. ток. в док. & 4 & - \\
+\hline
+Модальное кол. ток. в док. & 30 & - \\
+\hline
+Среднее кол. ток. в док. & 337 & - \\
+\hline
+Медианное кол. ток. в док. & 297 & - \\
+\hline
+Макс. кол. ток. в док. & 2391 & - \\
+\hline
+Мин. кол. уник. ток. в док. & 4 & - \\
+\hline
+Мод. кол. уник. ток. в док. & 28 & - \\
+\hline
+Сред. кол. уник. ток. в док. & 182 & - \\
+\hline
+Мед. кол. уник. ток. в док. & 170 & - \\
+\hline
+Макс. кол. уник. ток. в док. & 946 & - \\
+\hline
+\end{longtable}
 
 
 

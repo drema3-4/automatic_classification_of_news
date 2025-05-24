@@ -158,6 +158,10 @@ INPUT D:\MiKTeX\tex\generic\xkeyval\xkeyval.tex
 INPUT D:\MiKTeX\tex\generic\xkeyval\xkvutils.tex
 INPUT D:\MiKTeX\tex\latex\cancel\cancel.sty
 INPUT D:\MiKTeX\tex\latex\cancel\cancel.sty
+INPUT D:\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT D:\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT D:\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT D:\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT D:\MiKTeX\tex\latex\listings\listings.sty
 INPUT D:\MiKTeX\tex\latex\listings\listings.sty
 INPUT D:\MiKTeX\tex\latex\listings\lstpatch.sty
@@ -375,6 +379,7 @@ INPUT code\parse_news.py
 INPUT .\code\parse_news.py
 INPUT .\code\parse_news.py
 INPUT code\parse_news.py
+INPUT D:\MiKTeX\fonts\tfm\public\tempora\Tempora-Regular-TLF-t2a.tfm
 INPUT diplom.aux
 INPUT .\diplom.out
 INPUT .\diplom.out
