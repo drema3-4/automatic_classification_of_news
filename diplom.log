@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.18)  24 MAY 2025 08:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.18)  24 MAY 2025 21:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1604,10 +1604,6 @@ File: t2atempora-tlf.fd 2015/09/13 Font definitions for T2A/Tempora-TLF.
 )
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 8.
-
-
-LaTeX Warning: Label `lst:08' multiply defined.
-
 )
 \openout1 = `diplom.aux'.
 
@@ -1816,23 +1812,68 @@ Overfull \hbox (57.88028pt too wide) in paragraph at lines 5--6
 
 ) (code/multithreading_apply_function.py
 
-[10]) (code/remove_extra_spaces_and_line_breaks.py)
+[10]) (code/remove_extra_spaces_and_line_breaks.py
 
-[11] (code/split_into_en_and_ru.py
+[11]) (code/split_into_en_and_ru.py
 
-[12])
+[12]) (code/processing_token.py
 
-[13] (diplom.bbl
+[13]) (code/apply_spacy_for_one_str.py
+Overfull \hbox (7.39688pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][] 
+ []
+
+) (code/tokenize_lemmatize_and_del_stop_words.py
+Overfull \hbox (28.5419pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][]  
+ []
+
+
+
+[14]
+Overfull \hbox (28.5419pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][]  
+ []
+
+) (code/calc_dict_corpus_and_tfidf.py
+Overfull \hbox (84.92862pt too wide) in paragraph at lines 1--2
+[][][][][][] 
+ []
+
+
+
+[15])
+Overfull \hbox (4.62047pt too wide) in paragraph at lines 547--551
+[]\T2A/Tempora-TLF/m/n/14.4 Однако дан-ное вы-чис-ле-ние не яв-ля-ет-ся пол-ным, так как биб-лио-те-ка Gensim
+ []
+
+(code/add_missing_tfidf_words.py) (code/add_missing_tfidf_words.py
+
+[16]) (code/del_tfidf_stop_words.py
+Overfull \hbox (64.92862pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (15.59024pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][]  
+ []
+
+)
+
+[17]
+
+[18] (diplom.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 12.
 
 ) (code/parse_news.py
 
-[14
+[19
 
 ]
 
-[15]
+[20]
 Overfull \hbox (57.88028pt too wide) in paragraph at lines 83--84
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -1849,9 +1890,32 @@ Overfull \hbox (93.12198pt too wide) in paragraph at lines 102--103
 
 
 
-[16])
+[21]) (code/parse_news.py
 
-[17] (diplom.aux)
+[22]
+
+[23]
+
+[24]
+Overfull \hbox (57.88028pt too wide) in paragraph at lines 83--84
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (86.07364pt too wide) in paragraph at lines 96--97
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (93.12198pt too wide) in paragraph at lines 102--103
+[][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+
+[25])
+
+[26] (diplom.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1860,24 +1924,21 @@ L3 programming layer <2025-01-18>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `diplom.out' has not changed.
-(rerunfilecheck)             Checksum: B19C03F9E9A6B08CA954DC5A547CB7FA;5352.
+(rerunfilecheck)             Checksum: 19E308F9BB5ED88D29412569EE652026;6162.
  ) 
 Here is how much of TeX's memory you used:
- 21557 strings out of 473529
- 335773 string characters out of 5731605
+ 21898 strings out of 473529
+ 342112 string characters out of 5731605
  1044350 words of memory out of 5000000
- 44105 multiletter control sequences out of 15000+600000
+ 44187 multiletter control sequences out of 15000+600000
  577930 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,869b,2256s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,1443b,2256s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Daniil\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><D:/MiKTeX/fonts/type1/public/tempora/Tempora-Bold.pfb><D:/MiKTeX/fonts/type1/public/tempora/Tempora-Regular.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on diplom.pdf (17 pages, 254932 bytes).
+Output written on diplom.pdf (26 pages, 311598 bytes).
 PDF statistics:
- 674 PDF objects out of 1000 (max. 8388607)
- 316 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1007 PDF objects out of 1200 (max. 8388607)
+ 553 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
