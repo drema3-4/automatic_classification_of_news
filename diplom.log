@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.18)  24 MAY 2025 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.18)  25 MAY 2025 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1783,7 +1783,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (D:\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (1.81528pt too wide) in paragraph at lines 26--26
+Overfull \hbox (1.81528pt too wide) in paragraph at lines 31--31
  [] |\T2A/Tempora-TLF/m/n/14.4 Приложение В [][]Ко-ли-че-ствен-ные ха-рак-те-ри-сти-ки под-го-тов-лен-но-го и непод- 
  []
 
@@ -1894,38 +1894,70 @@ Overfull \hbox (15.59024pt too wide) in paragraph at lines 4--5
 
 )
 
-[17] (diplom.bbl
+[17]
+<./images/zips_law_for_not_prepearing_data.png, id=494, 431.4519pt x 312.2064pt>
+File: ./images/zips_law_for_not_prepearing_data.png Graphic file (type png)
+<use ./images/zips_law_for_not_prepearing_data.png>
+Package pdftex.def Info: ./images/zips_law_for_not_prepearing_data.png  used on input line 605.
+(pdftex.def)             Requested size: 431.45085pt x 312.20564pt.
+
+
+[18 <./images/zips_law_for_not_prepearing_data.png>]
+<./images/zips_law_for_prepearing_data.png, id=502, 425.6703pt x 312.2064pt>
+File: ./images/zips_law_for_prepearing_data.png Graphic file (type png)
+<use ./images/zips_law_for_prepearing_data.png>
+Package pdftex.def Info: ./images/zips_law_for_prepearing_data.png  used on input line 613.
+(pdftex.def)             Requested size: 425.66925pt x 312.20564pt.
+
+
+[19 <./images/zips_law_for_prepearing_data.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 647.
+
+(code/make_vowpal_wabbit.py
+
+[20]) (code/make_batches.py) (code/add_regularizer.py
+
+[21]) (code/add_regularizers.py)
+Overfull \hbox (21.10838pt too wide) in paragraph at lines 726--728
+[]\T2A/Tempora-TLF/m/n/14.4 Таким об-ра-зом, бы-ли до-бав-ле-ны ин-стру-мен-ты для удоб-ной ра-бо-ты с BigARTM
+ []
+
+
+
+[22] (code/calc_coherence.py)
+
+[23] (code/calc_model.py
+Overfull \hbox (64.92862pt too wide) in paragraph at lines 19--20
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (128.36368pt too wide) in paragraph at lines 22--23
+[][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.49356pt too wide) in paragraph at lines 22--23
+[][][][][][] 
+ []
+
+
+
+[24]) (code/calc_coherence_graphik.py)
+
+[25] (diplom.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 12.
 
 ) (code/parse_news.py
 
-[18]
+[26
 
-[19]
-Overfull \hbox (57.88028pt too wide) in paragraph at lines 83--84
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
+]
 
-
-
-[20]
-Overfull \hbox (86.07364pt too wide) in paragraph at lines 96--97
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (93.12198pt too wide) in paragraph at lines 102--103
-[][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-)
-
-[21] (code/parse_news.py
-
-[22]
-
-[23]
+[27]
 Overfull \hbox (57.88028pt too wide) in paragraph at lines 83--84
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -1942,134 +1974,157 @@ Overfull \hbox (93.12198pt too wide) in paragraph at lines 102--103
 
 
 
-[24])
+[28]) (code/parse_news.py
+
+[29]
+
+[30]
+Overfull \hbox (57.88028pt too wide) in paragraph at lines 83--84
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+
+[31]
+Overfull \hbox (86.07364pt too wide) in paragraph at lines 96--97
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (93.12198pt too wide) in paragraph at lines 102--103
+[][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+
+[32])
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 632.
+(Font)              scaled to size 10.0pt on input line 813.
 
-Overfull \hbox (14.92085pt too wide) in paragraph at lines 668--668
+Overfull \hbox (14.92085pt too wide) in paragraph at lines 849--849
  []|\T2A/Tempora-TLF/m/n/14.4 12131111| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 668--668
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 849--849
  []|\T2A/Tempora-TLF/m/n/14.4 6545045| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 668--668
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 849--849
  []|\T2A/Tempora-TLF/m/n/14.4 6479545| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 668--668
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 849--849
  []|\T2A/Tempora-TLF/m/n/14.4 6414045| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 668--669
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 849--850
  []|\T2A/Tempora-TLF/m/n/14.4 6348544| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 670--670
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 851--851
  []|\T2A/Tempora-TLF/m/n/14.4 278724| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 670--670
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 851--851
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 670--670
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 851--851
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 670--670
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 851--851
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 670--671
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 851--852
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
-[25] [26]
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 734--734
+[33]
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 915--915
  []|\T2A/Tempora-TLF/m/n/14.4 6283046| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 734--734
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 915--915
  []|\T2A/Tempora-TLF/m/n/14.4 6217544| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 734--734
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 915--915
  []|\T2A/Tempora-TLF/m/n/14.4 6152044| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 734--734
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 915--915
  []|\T2A/Tempora-TLF/m/n/14.4 6086544| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 734--734
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 915--915
  []|\T2A/Tempora-TLF/m/n/14.4 6021044| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 734--735
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 915--916
  []|\T2A/Tempora-TLF/m/n/14.4 5955543| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 736--736
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 917--917
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 736--736
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 917--917
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 736--736
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 917--917
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 736--736
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 917--917
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 736--736
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 917--917
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 736--737
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 917--918
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
-[27]
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 792--792
+
+
+[34] [35]
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 973--973
  []|\T2A/Tempora-TLF/m/n/14.4 5890042| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 794--794
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 975--975
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
+[36]
 
-
-[28] [29]
-
-[30] (diplom.aux)
+[37] (diplom.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2079,20 +2134,20 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `diplom.out' has not changed.
-(rerunfilecheck)             Checksum: 155591693199B04012B31DE38EC4A544;7502.
+(rerunfilecheck)             Checksum: 4D1112BF5C3E2C33B188656ACF68E6FD;9734.
  ) 
 Here is how much of TeX's memory you used:
- 22042 strings out of 473529
- 344257 string characters out of 5731605
- 1062313 words of memory out of 5000000
- 44315 multiletter control sequences out of 15000+600000
+ 22304 strings out of 473529
+ 349501 string characters out of 5731605
+ 1051313 words of memory out of 5000000
+ 44435 multiletter control sequences out of 15000+600000
  580078 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,1443b,2206s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,1443b,2255s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Daniil\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><D:/MiKTeX/fonts/type1/public/tempora/Tempora-Bold.pfb><D:/MiKTeX/fonts/type1/public/tempora/Tempora-Regular.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on diplom.pdf (30 pages, 325599 bytes).
+Output written on diplom.pdf (37 pages, 401993 bytes).
 PDF statistics:
- 1040 PDF objects out of 1200 (max. 8388607)
- 562 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1250 PDF objects out of 1440 (max. 8388607)
+ 683 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
