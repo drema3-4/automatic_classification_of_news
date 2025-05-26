@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex diplom"] 1748277624.97833 "diplom.aux" "diplom.bbl" "diplom" 1748277629.79354 0
+["bibtex diplom"] 1748278138.05311 "diplom.aux" "diplom.bbl" "diplom" 1748278142.68857 0
   "./gost780uv.bst" 1355680106 28551 572aea001b1187cd3422dbdb98a666ae ""
   "./thesis.bib" 1745994786 4148 f4b63ad42f65045a9137b67311e220ef ""
-  "diplom.aux" 1748277628 57291 10f7e8558ba411e73227426dea564510 "pdflatex"
+  "diplom.aux" 1748278141 58555 8d206c4c3115df341a21a2c06ce65de7 "pdflatex"
   (generated)
   "diplom.bbl"
   "diplom.blg"
   (rewritten before read)
-["pdflatex"] 1748277625.29026 "d:/ВУЗ/Диплом/automatic_classification_of_news/diplom.tex" "diplom.pdf" "diplom" 1748277629.79427 0
+["pdflatex"] 1748278138.36243 "d:/ВУЗ/Диплом/automatic_classification_of_news/diplom.tex" "diplom.pdf" "diplom" 1748278142.68926 0
   "C:/Users/Daniil/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1739890195 91257 eb498b2e1cda15d4deb9b864854e7db0 ""
   "C:/Users/Daniil/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1200.pk" 1739890215 27028 a6b6c7c34c32a9c3626f6b4a84b7ecba ""
   "C:/Users/Daniil/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1739888818 3240 c2435f2b5cd66d4930bc29b8df87967e ""
@@ -194,12 +194,12 @@
   "code/select_best_trial.py" 1748182183 813 22bc617d3c133982af70e61e594a256d ""
   "code/split_into_en_and_ru.py" 1748062451 731 c803b488fb4acdacb90aeecb41306e7d ""
   "code/tokenize_lemmatize_and_del_stop_words.py" 1748108629 715 69caaeaaf31e95cc1fe836b5e9ff639e ""
-  "d:/ВУЗ/Диплом/automatic_classification_of_news/diplom.tex" 1748277619 79416 b7f9951937e3f96a3b7f70451227ffee ""
-  "diplom.aux" 1748277628 57291 10f7e8558ba411e73227426dea564510 "pdflatex"
-  "diplom.bbl" 1748277625 503 aba648f20b890a4ebb035972d593ec18 "bibtex diplom"
-  "diplom.out" 1748277628 16290 d32e50e4db6a896a0a9e8217be0d7724 "pdflatex"
-  "diplom.tex" 1748277619 79416 b7f9951937e3f96a3b7f70451227ffee ""
-  "diplom.toc" 1748277628 28059 6af3d28ecc28bab15058c5873a3ec517 "pdflatex"
+  "d:/ВУЗ/Диплом/automatic_classification_of_news/diplom.tex" 1748278132 81917 b0b4d9abf6158c1ad1bc3c98f58d899c ""
+  "diplom.aux" 1748278141 58555 8d206c4c3115df341a21a2c06ce65de7 "pdflatex"
+  "diplom.bbl" 1748278138 503 aba648f20b890a4ebb035972d593ec18 "bibtex diplom"
+  "diplom.out" 1748278141 17133 4f095d2f69d1e6990adbbc982408b9fb "pdflatex"
+  "diplom.tex" 1748278132 81917 b0b4d9abf6158c1ad1bc3c98f58d899c ""
+  "diplom.toc" 1748278141 29241 bb36620133a7f53abbfc2ab7870f93d8 "pdflatex"
   "images/different_stem_and_lem.png" 1748266288 55389 0417d7cb73bb4ad990bbebdfe690c475 ""
   "images/topic_modeling_task_1.png" 1748224564 189891 d98706a4a707eb0a17a51fb4c3883cc4 ""
   "images/topic_modeling_task_2.png" 1748224559 27321 eefc1be3a820f957a1357180921e8ff1 ""
