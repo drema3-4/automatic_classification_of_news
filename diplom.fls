@@ -354,12 +354,12 @@ INPUT D:\MiKTeX\tex\latex\psnfss\ts1pcr.fd
 INPUT D:\MiKTeX\tex\latex\psnfss\ts1pcr.fd
 INPUT D:\MiKTeX\tex\latex\psnfss\ts1pcr.fd
 INPUT D:\MiKTeX\fonts\tfm\adobe\courier\pcrr8c.tfm
-INPUT .\code\get_news_content.py
-INPUT .\code\get_news_content.py
-INPUT code\get_news_content.py
 INPUT D:\MiKTeX\fonts\vf\adobe\courier\pcrr8c.vf
 INPUT D:\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT D:\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT .\code\get_news_content.py
+INPUT .\code\get_news_content.py
+INPUT code\get_news_content.py
 INPUT .\code\get_one_news_page.py
 INPUT .\code\get_one_news_page.py
 INPUT code\get_one_news_page.py
