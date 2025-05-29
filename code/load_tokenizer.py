@@ -1,0 +1,1 @@
+self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
