@@ -454,9 +454,9 @@ INPUT code\load_tokenizer.py
 INPUT .\code\tokenize_data.py
 INPUT .\code\tokenize_data.py
 INPUT code\tokenize_data.py
-INPUT .\code\tokenize_data.py
-INPUT .\code\tokenize_data.py
-INPUT code\tokenize_data.py
+INPUT .\code\prepeare_data.py
+INPUT .\code\prepeare_data.py
+INPUT code\prepeare_data.py
 INPUT .\code\train_args.py
 INPUT .\code\train_args.py
 INPUT code\train_args.py
@@ -484,6 +484,8 @@ INPUT code\calc_classificator.py
 INPUT diplom.aux
 INPUT .\diplom.out
 INPUT .\diplom.out
+INPUT C:\Users\Daniil\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
+INPUT C:\Users\Daniil\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk
 INPUT C:\Users\Daniil\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
 INPUT C:\Users\Daniil\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
 INPUT D:\MiKTeX\fonts\type1\public\tempora\Tempora-Bold.pfb

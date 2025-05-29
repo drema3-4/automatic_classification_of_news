@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.18)  29 MAY 2025 06:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.18)  29 MAY 2025 07:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1796,7 +1796,7 @@ Overfull \hbox (6.14761pt too wide) in paragraph at lines 38--38
 [2
 
 ]
-Overfull \hbox (1.81528pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.81528pt too wide) in paragraph at lines 75--75
  [] |\T2A/Tempora-TLF/m/n/14.4 Приложение В [][]Ко-ли-че-ствен-ные ха-рак-те-ри-сти-ки под-го-тов-лен-но-го и непод- 
  []
 
@@ -1819,7 +1819,7 @@ Overfull \hbox (1.81528pt too wide) in paragraph at lines 73--73
 [6]
 
 [7]
-<./images/different_stem_and_lem.png, id=342, 493.3632pt x 276.5532pt>
+<./images/different_stem_and_lem.png, id=352, 493.3632pt x 276.5532pt>
 File: ./images/different_stem_and_lem.png Graphic file (type png)
 <use ./images/different_stem_and_lem.png>
 Package pdftex.def Info: ./images/different_stem_and_lem.png  used on input line 376.
@@ -1831,7 +1831,7 @@ LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
 [8 <./images/different_stem_and_lem.png>]
 
 [9]
-<./images/topic_modeling_task_1.png, id=358, 901.11656pt x 561.59813pt>
+<./images/topic_modeling_task_1.png, id=368, 901.11656pt x 561.59813pt>
 File: ./images/topic_modeling_task_1.png Graphic file (type png)
 <use ./images/topic_modeling_task_1.png>
 Package pdftex.def Info: ./images/topic_modeling_task_1.png  used on input line 453.
@@ -1839,7 +1839,7 @@ Package pdftex.def Info: ./images/topic_modeling_task_1.png  used on input line 
 
 
 [10 <./images/topic_modeling_task_1.png>]
-<./images/topic_modeling_task_2.png, id=369, 902.6222pt x 261.22594pt>
+<./images/topic_modeling_task_2.png, id=379, 902.6222pt x 261.22594pt>
 File: ./images/topic_modeling_task_2.png Graphic file (type png)
 <use ./images/topic_modeling_task_2.png>
 Package pdftex.def Info: ./images/topic_modeling_task_2.png  used on input line 479.
@@ -1984,40 +1984,40 @@ Overfull \hbox (50.83983pt too wide) in paragraph at lines 4--5
 
 
 [34])
-Overfull \hbox (0.30148pt too wide) in paragraph at lines 1496--1498
+Overfull \hbox (0.30148pt too wide) in paragraph at lines 1495--1497
 []\T2A/Tempora-TLF/m/n/14.4 Количество уни-каль-ных то-ке-нов со-кра-ти-лось на 50 про-цен-тов (рис. [][]4[][]-
  []
 
-<./images/zips_law_for_not_preprocessed_data.png, id=849, 431.4519pt x 312.2064pt>
+<./images/zips_law_for_not_preprocessed_data.png, id=859, 431.4519pt x 312.2064pt>
 File: ./images/zips_law_for_not_preprocessed_data.png Graphic file (type png)
 <use ./images/zips_law_for_not_preprocessed_data.png>
-Package pdftex.def Info: ./images/zips_law_for_not_preprocessed_data.png  used on input line 1503.
+Package pdftex.def Info: ./images/zips_law_for_not_preprocessed_data.png  used on input line 1502.
 (pdftex.def)             Requested size: 431.45085pt x 312.20564pt.
 
 
 [35]
-<./images/zips_law_for_preprocessed_data.png, id=869, 425.6703pt x 312.2064pt>
+<./images/zips_law_for_preprocessed_data.png, id=879, 425.6703pt x 312.2064pt>
 File: ./images/zips_law_for_preprocessed_data.png Graphic file (type png)
 <use ./images/zips_law_for_preprocessed_data.png>
-Package pdftex.def Info: ./images/zips_law_for_preprocessed_data.png  used on input line 1511.
+Package pdftex.def Info: ./images/zips_law_for_preprocessed_data.png  used on input line 1510.
 (pdftex.def)             Requested size: 425.66925pt x 312.20564pt.
 
 
 [36 <./images/zips_law_for_not_preprocessed_data.png> <./images/zips_law_for_preprocessed_data.png>]
 
 [37]
-Overfull \hbox (6.54904pt too wide) in paragraph at lines 1607--1609
+Overfull \hbox (6.54904pt too wide) in paragraph at lines 1606--1608
 []\T2A/Tempora-TLF/m/n/14.4 Препроцессинг-објрт-ка ^^V ав-то-ма-ти-за-ция пре-об-ра-зо-ва-ния дан-ных и управ-
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 1614.
+(hyperref)                removing `\\' on input line 1613.
 
 
 
 [38]
-Overfull \hbox (111.6972pt too wide) in paragraph at lines 1633--1635
+Overfull \hbox (111.6972pt too wide) in paragraph at lines 1632--1634
 []\T2A/Tempora-TLF/m/n/14.4 Для ре-ше-ния этих за-дач пред-ло-же-но вы-де-ле-ние от-дель-но-го клас-са Hyperparameter_optimizer,
  []
 
@@ -2047,12 +2047,12 @@ Overfull \hbox (21.49356pt too wide) in paragraph at lines 22--23
 
 
 [43]) (code/calc_coherence_graphik.py)
-Overfull \hbox (41.12299pt too wide) in paragraph at lines 1806--1808
+Overfull \hbox (41.12299pt too wide) in paragraph at lines 1805--1807
 []\T2A/Tempora-TLF/m/n/14.4 Данная ре-а-ли-за-ция за-вер-ша-ет ба-зо-вый функ-ци-о-нал клас-са My_BigARTM_model.
  []
 
 
-Overfull \hbox (36.81989pt too wide) in paragraph at lines 1827--1829
+Overfull \hbox (36.81989pt too wide) in paragraph at lines 1826--1828
 []\T2A/Tempora-TLF/m/n/14.4 Определение про-стран-ства по-ис-ка ги-пер-па-ра-мет-ров че-рез trial.suggest_int()
  []
 
@@ -2069,38 +2069,40 @@ Overfull \hbox (36.81989pt too wide) in paragraph at lines 1827--1829
 [48] (code/hugging_face_dependicies.py
 
 [49])
-Overfull \hbox (10.9838pt too wide) in paragraph at lines 2098--2103
+Overfull \hbox (10.9838pt too wide) in paragraph at lines 2097--2102
 []\T2A/Tempora-TLF/m/n/14.4 Для за-груз-ки мо-де-ли по-тре-бу-ет-ся класс AutoModelForSequenceClassification
  []
 
-(code/load_model.py)
-Overfull \hbox (29.12772pt too wide) in paragraph at lines 2116--2118
-[]\T2A/Tempora-TLF/m/n/14.4 Загрузка про-ис-хо-дит с по-мо-щью клас-са AutoTokenizer и ме-то-да from_pretrained.
+(code/load_model.py) (code/load_tokenizer.py) (code/tokenize_data.py
+
+[50]) (code/prepeare_data.py)
+Overfull \hbox (2.69087pt too wide) in paragraph at lines 2141--2144
+[]\T2A/Tempora-TLF/m/n/14.4 Выбранная мо-дель (RoBERTa) не яв-ля-ет-ся сверх-боль-шой, а ре-сур-сы Google
  []
 
-(code/load_tokenizer.py)
 
-[50] (code/tokenize_data.py) (code/tokenize_data.py)
 
 [51] (code/train_args.py)
 
-LaTeX Warning: Reference `lst32' on page 52 undefined on input line 2170.
+LaTeX Warning: Reference `lst32' on page 52 undefined on input line 2166.
 
 (code/trainer.py)
 
 [52]
 
-[53] (diplom.bbl
+[53]
+
+[54] (diplom.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 12.
 
 ) (code/parse_news.py
 
-[54
+[55
 
 ]
 
-[55]
+[56]
 Overfull \hbox (57.88028pt too wide) in paragraph at lines 83--84
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -2117,18 +2119,18 @@ Overfull \hbox (93.12198pt too wide) in paragraph at lines 102--103
 
 
 
-[56]) (code/parse_news.py
-
-[57]
+[57]) (code/parse_news.py
 
 [58]
+
+[59]
 Overfull \hbox (57.88028pt too wide) in paragraph at lines 83--84
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 
-[59]
+[60]
 Overfull \hbox (86.07364pt too wide) in paragraph at lines 96--97
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -2140,137 +2142,137 @@ Overfull \hbox (93.12198pt too wide) in paragraph at lines 102--103
 
 
 
-[60])
-Overfull \hbox (14.92085pt too wide) in paragraph at lines 2254--2254
+[61])
+Overfull \hbox (14.92085pt too wide) in paragraph at lines 2364--2364
  []|\T2A/Tempora-TLF/m/n/14.4 12131111| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2254--2254
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2364--2364
  []|\T2A/Tempora-TLF/m/n/14.4 6545045| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2254--2254
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2364--2364
  []|\T2A/Tempora-TLF/m/n/14.4 6479545| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2254--2254
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2364--2364
  []|\T2A/Tempora-TLF/m/n/14.4 6414045| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2254--2255
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2364--2365
  []|\T2A/Tempora-TLF/m/n/14.4 6348544| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2256--2256
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2366--2366
  []|\T2A/Tempora-TLF/m/n/14.4 278724| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2256--2256
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2366--2366
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2256--2256
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2366--2366
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2256--2256
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2366--2366
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2256--2257
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2366--2367
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
-[61]
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2320--2320
+[62]
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2430--2430
  []|\T2A/Tempora-TLF/m/n/14.4 6283046| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2320--2320
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2430--2430
  []|\T2A/Tempora-TLF/m/n/14.4 6217544| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2320--2320
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2430--2430
  []|\T2A/Tempora-TLF/m/n/14.4 6152044| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2320--2320
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2430--2430
  []|\T2A/Tempora-TLF/m/n/14.4 6086544| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2320--2320
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2430--2430
  []|\T2A/Tempora-TLF/m/n/14.4 6021044| 
  []
 
 
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2320--2321
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2430--2431
  []|\T2A/Tempora-TLF/m/n/14.4 5955543| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2322--2322
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2432--2432
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2322--2322
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2432--2432
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2322--2322
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2432--2432
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2322--2322
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2432--2432
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2322--2322
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2432--2432
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2322--2323
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2432--2433
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
 
 
-[62] [63]
-Overfull \hbox (7.72086pt too wide) in paragraph at lines 2378--2378
+[63] [64]
+Overfull \hbox (7.72086pt too wide) in paragraph at lines 2488--2488
  []|\T2A/Tempora-TLF/m/n/14.4 5890042| 
  []
 
 
-Overfull \hbox (0.52086pt too wide) in paragraph at lines 2380--2380
+Overfull \hbox (0.52086pt too wide) in paragraph at lines 2490--2490
  []|\T2A/Tempora-TLF/m/n/14.4 148677| 
  []
 
-[64]
+[65]
 
-[65] (code/My_BigARTM_model.py
+[66] (code/My_BigARTM_model.py
 
-[66
+[67
 
 ]
 
-[67]
+[68]
 Overfull \hbox (93.12198pt too wide) in paragraph at lines 89--90
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -2282,16 +2284,16 @@ Overfull \hbox (21.49356pt too wide) in paragraph at lines 102--103
 
 
 
-[68]
-
 [69]
+
+[70]
 Overfull \hbox (29.68692pt too wide) in paragraph at lines 159--160
 [][][][][][][][]  
  []
 
 
 
-[70]
+[71]
 Overfull \hbox (1.49356pt too wide) in paragraph at lines 192--193
 [][][][][][][][][][][][][][][] 
  []
@@ -2303,7 +2305,7 @@ Overfull \hbox (8.5419pt too wide) in paragraph at lines 197--198
 
 
 
-[71]
+[72]
 Overfull \hbox (15.59024pt too wide) in paragraph at lines 237--239
 [][][][][][][][][][][][][][][][]  
  []
@@ -2330,9 +2332,9 @@ Overfull \hbox (35.59024pt too wide) in paragraph at lines 248--250
 
 
 
-[72]
+[73]
 
-[73]) (code/hyperparameter_optimizer.py
+[74]) (code/hyperparameter_optimizer.py
 Overfull \hbox (0.34854pt too wide) in paragraph at lines 8--9
 [][][][][][][][][][][][][] 
  []
@@ -2344,31 +2346,31 @@ Overfull \hbox (28.5419pt too wide) in paragraph at lines 10--11
 
 
 
-[74]
-
 [75]
 
 [76]
 
-[77]) (code/calc_classificator.py
+[77]
 
-[78]
+[78]) (code/calc_classificator.py
+
+[79]
 Overfull \hbox (0.34854pt too wide) in paragraph at lines 47--48
 [][][][][]  
  []
 
 
 
-[79]
+[80]
 Overfull \hbox (14.44522pt too wide) in paragraph at lines 73--74
 [][][][][][][][][][] 
  []
 
 
 
-[80]
-
 [81]
+
+[82]
 Overfull \hbox (43.7836pt too wide) in paragraph at lines 142--143
 [][][][][][][][][][][][][]  
  []
@@ -2380,9 +2382,9 @@ Overfull \hbox (190.65372pt too wide) in paragraph at lines 158--160
 
 
 
-[82])
+[83])
 
-[83] (diplom.aux)
+[84] (diplom.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2395,20 +2397,20 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `diplom.out' has not changed.
-(rerunfilecheck)             Checksum: 3025182A4016BB716B92FA4897DC1B6F;20746.
+(rerunfilecheck)             Checksum: 16A0861440B05A5F6CD2E5C9E282FC1D;21603.
  ) 
 Here is how much of TeX's memory you used:
- 23741 strings out of 473529
- 372734 string characters out of 5731605
+ 23765 strings out of 473529
+ 373014 string characters out of 5731605
  1059105 words of memory out of 5000000
- 44842 multiletter control sequences out of 15000+600000
+ 44853 multiletter control sequences out of 15000+600000
  584327 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,15n,80p,1561b,2505s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Daniil\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><D:/MiKTeX/fonts/type1/public/tempora/Tempora-Bold.pfb><D:/MiKTeX/fonts/type1/public/tempora/Tempora-Italic.pfb><D:/MiKTeX/fonts/type1/public/tempora/Tempora-Regular.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><D:/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on diplom.pdf (83 pages, 1019651 bytes).
+ <C:\Users\Daniil\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Daniil\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><D:/MiKTeX/fonts/type1/public/tempora/Tempora-Bold.pfb><D:/MiKTeX/fonts/type1/public/tempora/Tempora-Italic.pfb><D:/MiKTeX/fonts/type1/public/tempora/Tempora-Regular.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><D:/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on diplom.pdf (84 pages, 1035138 bytes).
 PDF statistics:
- 2745 PDF objects out of 2984 (max. 8388607)
- 1666 named destinations out of 1728 (max. 500000)
- 450 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2796 PDF objects out of 2984 (max. 8388607)
+ 1678 named destinations out of 1728 (max. 500000)
+ 466 words of extra memory for PDF output out of 10000 (max. 10000000)
 
