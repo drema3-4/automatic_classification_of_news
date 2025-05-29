@@ -342,6 +342,8 @@ INPUT .\images\topic_modeling_task_2.png
 INPUT .\images\topic_modeling_task_2.png
 INPUT .\images\topic_modeling_task_2.png
 INPUT D:\MiKTeX\fonts\tfm\public\tempora\Tempora-Italic-TLF-t2a.tfm
+INPUT D:\MiKTeX\fonts\tfm\public\tempora\Tempora-Regular-TLF-t2a.tfm
+INPUT D:\MiKTeX\fonts\tfm\public\tempora\Tempora-Regular-TLF-t2a.tfm
 INPUT .\code\get_page_function.py
 INPUT .\code\get_page_function.py
 INPUT C:\Users\Daniil\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1200.tfm
@@ -449,7 +451,6 @@ INPUT code\parse_news.py
 INPUT .\code\parse_news.py
 INPUT .\code\parse_news.py
 INPUT code\parse_news.py
-INPUT D:\MiKTeX\fonts\tfm\public\tempora\Tempora-Regular-TLF-t2a.tfm
 INPUT .\code\My_BigARTM_model.py
 INPUT .\code\My_BigARTM_model.py
 INPUT code\My_BigARTM_model.py
