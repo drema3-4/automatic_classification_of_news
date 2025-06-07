@@ -9,3 +9,4 @@
 *.blg
 *.bbl
 *.synctex(busy)
+/docs/
