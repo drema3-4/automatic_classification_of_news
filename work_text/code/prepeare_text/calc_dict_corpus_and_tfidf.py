@@ -1,4 +1,4 @@
-def calc_tfidf_corpus_without_zero_score_tokens_and_tfidf_dictionary(self) -> None:
+def calc_tfidf_corpus_without_zero_score_tokens(self) -> None:
     texts = []
     self.original_tokens = []
     for row in range(self.p_data.shape[0]):
