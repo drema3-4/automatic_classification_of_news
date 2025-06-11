@@ -5,6 +5,7 @@ import os
 import time
 import threading
 
+
 def __loading_bar_and_info__(
     start: bool, number_of_steps: int, total_steps: int, number_of_thread: int
 ) -> None:
@@ -35,6 +36,7 @@ def __loading_bar_and_info__(
         print("-", end="")
     print("> {0}% ||| {1} / {2}".format(done, number_of_steps, total_steps))
 
+
 def __getPage__(url: str, file_name: str) -> None:
     '''Получение html файла страницы.
     url - ссылка на страницу;
@@ -43,6 +45,7 @@ def __getPage__(url: str, file_name: str) -> None:
 
     with open(file_name, "w", encoding="utf-8") as file:
         file.write(r.text)
+
 
 def __parse_news__(url: str) -> str:
     '''Получиние полного контента новости.
@@ -59,6 +62,7 @@ def __parse_news__(url: str) -> str:
     ).text.strip()
 
     return content
+
 
 def __parse_page__(page_file_name: str, news_container: pd.DataFrame) -> None:
     '''Парсинг информации с новостной страницы: ссылка на новость + короткая информация о ней.
