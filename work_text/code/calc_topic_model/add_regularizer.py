@@ -8,6 +8,7 @@ def add_regularizer(self, name: str, tau: float = 0.0) -> None:
         self.model.regularizers.add(
             artm.SmoothSparsePhiRegularizer(name=name, tau=tau)
         )
+    # остальные регул€ризаторы ...
     else:
         print(
             "–егул€ризатора {0} нет! ѕроверьте корректность названи€!".

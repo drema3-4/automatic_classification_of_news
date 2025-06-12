@@ -24,7 +24,16 @@ class Hyperparameter_optimizer:
 
         self.robast_scaler = RobustScaler()
 
+    def __generate_regularizers_dict__(self, trial) -> dict[str, float]:
+        """Генерирует словарь с параметрами регуляризаторов для текущего trial"""
+        reg_dict = {}
+        for reg_name, (param_name, low, high) in self.regularizers.items():
+            tau_value = trial.suggest_float(param_name, low, high)
+            reg_dict[reg_name] = tau_value
+        return reg_dict
+
     def __objective__(self, trial) -> tuple[float, float, float]:
+        # Основные параметры модели
         num_topics = trial.suggest_int(
             self.num_topics[0], self.num_topics[1], self.num_topics[2]
         )
@@ -36,34 +45,32 @@ class Hyperparameter_optimizer:
             self.num_collection_passes[0], self.num_collection_passes[1],
             self.num_collection_passes[2]
         )
-        tau_theta = trial.suggest_float(
-            self.regularizers["SmoothSparseThetaRegularizer"][0],
-            self.regularizers["SmoothSparseThetaRegularizer"][1],
-            self.regularizers["SmoothSparseThetaRegularizer"][2]
-        )
-        tau_phi = trial.suggest_float(
-            self.regularizers["SmoothSparsePhiRegularizer"][0],
-            self.regularizers["SmoothSparsePhiRegularizer"][1],
-            self.regularizers["SmoothSparsePhiRegularizer"][2]
-        )
-        regularizers = {
-            "SmoothSparseThetaRegularizer": tau_theta,
-            "SmoothSparsePhiRegularizer": tau_phi
-        }
+
+        # Динамическое создание параметров регуляризаторов
+        regularizers_dict = self.__generate_regularizers_dict__(trial)
         class_ids = self.class_ids
 
+        # Создание и расчет модели
         model = My_BigARTM_model(
             data=self.data,
             num_topics=num_topics,
             num_document_passes=num_document_passes,
             class_ids=class_ids,
             num_collection_passes=num_collection_passes,
-            regularizers=regularizers
+            regularizers=regularizers_dict
         )
         model.calc_model()
 
         return model.get_perplexity(), model.get_coherence(
         ), model.get_topic_purities()
+
+    def __extract_regularizers_params__(self, params: dict) -> dict[str, float]:
+        """Извлекает параметры регуляризаторов из общего словаря параметров"""
+        reg_params = {}
+        for reg_name, (param_name, _, _) in self.regularizers.items():
+            if param_name in params:
+                reg_params[reg_name] = params[param_name]
+        return reg_params
 
     def __select_best_trial__(self, study, weights):
         """Выбирает trial с минимальной взвешенной суммой метрик."""
@@ -77,7 +84,6 @@ class Hyperparameter_optimizer:
             scaler = RobustScaler()
             scaled_column = scaler.fit_transform(metrics[:, i].reshape(-1, 1)
                                                 ).flatten()
-
             if weights[i] < 0:
                 scaled_column = -scaled_column
             scaled_metrics[:, i] = scaled_column
@@ -93,37 +99,39 @@ class Hyperparameter_optimizer:
         study = optuna.create_study(
             directions=["minimize", "maximize", "maximize"]
         )
-
         study.optimize(self.__objective__, n_trials=self.n_trials)
-
         best_trial = self.__select_best_trial__(study, weights=[1, -1, -1])
-
         best_params = best_trial[0]
 
-        num_topics = best_params["num_topics"]
-        num_document_passes = best_params["num_document_passes"]
-        num_collection_passes = best_params["num_collection_passes"]
-        tau_theta = best_params["tau_theta"]
-        tau_phi = best_params["tau_phi"]
+        # Извлечение основных параметров
+        num_topics = best_params[self.num_topics[0]]
+        num_document_passes = best_params[self.num_document_passes[0]]
+        num_collection_passes = best_params[self.num_collection_passes[0]]
 
-        print("best params:")
-        print(f"num topics = {num_topics}; num document passes = {num_document_passes};\nnum collection passes = {num_collection_passes}; tau theta = {tau_theta}; tau phi = {tau_phi}.")
+        # Извлечение параметров регуляризаторов
+        regularizers_params = self.__extract_regularizers_params__(best_params)
 
+        print("Лучшие параметры:")
+        print(f"Количество тем: {num_topics}")
+        print(f"Проходы по документу: {num_document_passes}")
+        print(f"Проходы по коллекции: {num_collection_passes}")
+
+        for reg_name, tau_value in regularizers_params.items():
+            print(f"{reg_name}: {tau_value:.4f}")
+
+        # Создание финальной модели
         final_model = My_BigARTM_model(
             data=self.data,
             num_topics=num_topics,
             num_document_passes=num_document_passes,
             num_collection_passes=num_collection_passes,
-            regularizers={
-                "SmoothSparseThetaRegularizer": tau_theta,
-                "SmoothSparsePhiRegularizer": tau_phi
-            },
-            class_ids={"@default_class": 1.0}
+            regularizers=regularizers_params,
+            class_ids=self.class_ids
         )
         final_model.calc_model()
-
         self.model = final_model
 
+    # Остальные методы без изменений
     def get_model(self) -> My_BigARTM_model:
         return self.model
 
