@@ -1,4 +1,3 @@
-%%capture
 !pip install transformers datasets evaluate
 
 from datasets import Dataset

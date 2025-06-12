@@ -8,11 +8,9 @@ class TopicClassifier:
     ):
         try:
             self.data = pd.read_excel(data_path)
-            self.data = self.data.fillna("")
-            self.data = self.data.astype(str)
         except FileNotFoundError:
             raise ValueError(f"File {data_path} not found!")
-        
+
         self.model_name = "nikitast/multilang-classifier-roberta"
         self.columns = columns
         self.maximum_sequence_length = maximum_sequence_length
@@ -147,11 +145,11 @@ class TopicClassifier:
         self.evaluation_results = self.trainer.evaluate()
         self.__print_final_metrics__()
 
-        self.model.save_pretrained(self.output_dir)
-        self.tokenizer.save_pretrained(self.output_dir)
+        # self.model.save_pretrained(self.output_dir)
+        # self.tokenizer.save_pretrained(self.output_dir)
 
-        with open(f"{self.output_dir}/id2topic.json", "w") as f:
-            json.dump({str(k): v for k, v in self.id2topic.items()}, f)
+        # with open(f"{self.output_dir}/id2topic.json", "w") as f:
+        #     json.dump({str(k): v for k, v in self.id2topic.items()}, f)
 
     def load_trained_model(self, model_path: str):
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
